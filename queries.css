@@ -1,0 +1,127 @@
+@media (max-width: 34em) {
+  h1,
+  h2,
+  h3 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 700; */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    /* line-height: 2; */
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+  }
+
+  ul {
+    gap: 2rem;
+  }
+
+  .hero-text h1 {
+    /* background-color: rgb(106, 42, 165); */
+    line-height: 1.4;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
+    text-align: center;
+    width: 70%;
+    /* background-color: blue; */
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .stay-productive-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .quotes {
+    top: -25px;
+    left: 0px;
+    /* transform: translate(-50%, -50%); */
+    position: absolute;
+  }
+
+  .quotes-img {
+    width: 4rem;
+  }
+
+  .testimonials-section {
+    padding: 0 5rem;
+    background-color: hsl(217, 28%, 15%);
+  }
+
+  .testimonial-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2.6rem;
+    padding-bottom: 30rem;
+  }
+
+  .e-mail-section {
+    position: relative;
+    /* background-color: hsl(216, 24%, 88%); */
+    background-color: hsl(217, 28%, 15%);
+    /* padding: 0 5rem; */
+    padding-bottom: 10rem;
+  }
+
+  .sign-up {
+    width: 85%;
+    padding: 3rem 4rem;
+  }
+
+  .e-mail-cta {
+    padding-top: 3rem;
+    display: grid;
+
+    align-items: center;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .e-mail-cta input {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .btn-2 {
+    display: inline-block;
+
+    background-color: hsl(176, 68%, 64%);
+    padding: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .footer {
+    padding: 20rem 7rem;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8rem;
+  }
+
+  /*to center the social-media icons*/
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
